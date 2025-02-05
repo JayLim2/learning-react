@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 100px;
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+h5 {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 10px 50px;
+  font-size: 10pt;
+  background-color: #ccc;
+  width: max-content;
+}
+
+.button:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
