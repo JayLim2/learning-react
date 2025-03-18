@@ -1,6 +1,6 @@
 'use client'
+import Header from "@/app/components/Header"
 import { useEffect, useRef, useState } from "react"
-import Header from "../components/Header"
 
 export default function Task1() {
   const ref = useRef<HTMLInputElement | null>(null)
